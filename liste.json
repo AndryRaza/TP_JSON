@@ -1,0 +1,29 @@
+{
+    "jeu":"Lancer de dé ",
+    "face" : [
+        {
+            "numero" : 1,
+            "valeur" : "Gagné"
+        },
+        {
+            "numero" : 2,
+            "valeur" : "Perdu"
+        },
+        {
+            "numero" : 3,
+            "valeur" : "Gagné"
+        },
+        {
+            "numero" : 4,
+            "valeur" : "Perdu"
+        },
+        {
+            "numero" : 5,
+            "valeur" : "Gagné"
+        },
+        {
+            "numero" : 6,
+            "valeur" : "Perdu"
+        }
+    ]
+}

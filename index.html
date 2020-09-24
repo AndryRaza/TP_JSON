@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+    <section>
+
+    </section>
+
+    <script>
+        const section = document.querySelector('section'); /* On cible l'élement "section" */
+
+        var request = new XMLHttpRequest;
+        request.open('GET', 'liste.json');
+
+        request.responseType = 'json';
+        request.send();
+
+        request.onload = function () {
+            var dé = request.response;
+            text_champ(dé);
+        }
+
+        function text_champ(objJSON) {
+
+            var face = objJSON.face;
+
+            tab=[];
+
+            function getRandomInt(max) {
+                return Math.floor(Math.random() * Math.floor(max));
+            }
+
+            function somme(tab){
+                var res = 0;
+                for (i=0;i < tab.length;i++){
+                    res = res + tab[i];
+                }
+                return res;
+            }
+
+            for (i = 0; i < 6; i++) {
+
+                var p1 = document.createElement('p');
+                
+                var lancer = getRandomInt(6)
+                tab.push(face[lancer].numero);
+                p1.textContent = "Vous avez fait " + face[lancer].numero + " et vous avez " + face[lancer].valeur + " .";
+                section.appendChild(p1);       
+            }
+
+            var p2 = document.createElement('p');
+            p2.textContent = "Vous avez eu une moyenne de " + (somme(tab)/ (tab.length) + " sur 6 lancers de dé.")
+            section.appendChild(p2);
+        }
+
+
+    </script>
+
+</body>
+
+</html>
