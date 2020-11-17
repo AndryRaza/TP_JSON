@@ -54,6 +54,7 @@ Deux des choses qui font tourner le monde sont associées au vert : la nature et
 
 ![alt text](background 2.jpg)
 
+
 Cette couleur est associée a :
 
 -   L’abondance
