@@ -35,7 +35,7 @@ Le rouge est un choix de couleurs audacieux associé à l’excitation, la passi
 **Background**
 
 
-  ![alt text](background.png)
+  ![alt text](background.jpg)
    
   
 -   Audace
@@ -52,7 +52,7 @@ Le rouge est un choix de couleurs audacieux associé à l’excitation, la passi
 
 Deux des choses qui font tourner le monde sont associées au vert : la nature et… l’argent (le dollar est vert). Le vert peut signifier la croissance, la fertilité, la santé, la richesse, le bien-être ou la générosité.
 
-![alt text](background2.png)
+![alt text](background 2.jpg)
 
 Cette couleur est associée a :
 
@@ -64,9 +64,9 @@ Cette couleur est associée a :
 
 Logo & icons: 
 
-![alt text](affaireconclu.png)
-![alt text](enchere.png)
-![alt text](securise.png)
+![alt text](Affaire conclu .png)
+![alt text](Enchère.png)
+![alt text](Paiement sécurisé .png)
 
 
   
